@@ -2,7 +2,7 @@
 	color: white;
 	border-radius: 6px;
 	background: #0A0A0A url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSIxMDAiPgo8cGF0aCBkPSJNMjggNjZMMCA1MEwwIDE2TDI4IDBMNTYgMTZMNTYgNTBMMjggNjZMMjggMTAwIiBmaWxsPSJub25lIiBzdHJva2U9IiM1NTUiIHN0cm9rZS13aWR0aD0iMiI+PC9wYXRoPgo8L3N2Zz4=");
-  background-size: 10px 18px;
+  background-size: 8px auto;
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.4);
 
 	.navbar-content {
