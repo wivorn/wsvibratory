@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon - Phone</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.400000006">
+        <g id="1-Home" transform="translate(-187.000000, -15.000000)" fill="#F6F6F6">
+            <g id="Header">
+                <g id="Hot-Link-Menu">
+                    <g id="Tel" transform="translate(187.000000, 15.000000)">
+                        <path d="M18.8235294,12.9411765 L14.1176471,12.9411765 C13.4670588,12.9411765 12.9411765,13.4670588 12.9411765,14.1176471 L12.9411765,15.2941176 C8.23529412,15.2941176 4.77882353,11.6917647 4.70588235,7.05882353 L5.88235294,7.05882353 C6.53294118,7.05882353 7.05882353,6.53294118 7.05882353,5.88235294 L7.05882353,1.17647059 C7.05882353,0.525882353 6.53294118,0 5.88235294,0 L1.17647059,0 C0.525882353,0 0,0.525882353 0,1.17647059 L0,7.05882353 C0,14.2058824 5.79411765,20 12.9411765,20 L18.8235294,20 C19.4741176,20 20,19.4741176 20,18.8235294 L20,14.1176471 C20,13.4670588 19.4741176,12.9411765 18.8235294,12.9411765" id="Icon---Phone"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+.header {
+	position: relative;
+	box-shadow: 0 2px 15px 0 rgb(0,0,0,0.4);
+
+	.logo {
+		margin: 24px 0 59px;
+		max-width: 400px;
+	}
+
+	.container {
+		position: relative;
+	}
+
+	.navbar {
+		position: absolute;
+		width: 100%;
+		left: 0;
+		bottom: 0;
+		transform: translate3d(0, 50%, 0);
+	}
+}

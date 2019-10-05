@@ -1,14 +1,6 @@
 html {
   font-size: var(--font-size);
-  @media (--breakpoint-medium) {
-    font-size: var(--font-size-m);
-  }
-  @media (--breakpoint-large) {
-    font-size: var(--font-size-l);
-  }
-  background-color: var(--black);
 }
-
 
 body {
   font-family: var(--font-family);
@@ -17,10 +9,9 @@ body {
   font-weight: var(--body-font-weight);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--off-white);
- }
+}
 
-p {
+/* p {
   margin-bottom: var(--spacing-medium);
   max-width: 32rem;
 }
@@ -37,22 +28,22 @@ sup {
   font-size: .6rem;
   font-weight: 700;
   vertical-align: super;
-}
+} */
 
 /* Measure is limited to ~66 characters */
-.measure {
+/* .measure {
   max-width: 30em;
-}
+} */
 
 /* Measure is limited to ~80 characters */
-.measure-wide {
+/* .measure-wide {
   max-width: 34em;
-}
+} */
 
 /* Measure is limited to ~45 characters */
-.measure-narrow {
+/* .measure-narrow {
   max-width: 25em;
-}
+} */
 
 /* Book paragraph style - paragraphs are indented with no vertical spacing. */
 .indent {
@@ -73,7 +64,7 @@ sup {
   text-overflow: ellipsis;
 }
 
-@media (--breakpoint-not-small) {
+/* @media (--breakpoint-not-small) {
   .measure-ns  {
     max-width: 30em;
   }
@@ -146,4 +137,4 @@ sup {
     overflow: hidden;
     text-overflow: ellipsis;
   }
-}
+} */
