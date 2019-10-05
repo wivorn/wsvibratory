@@ -1,6 +1,7 @@
 .header {
 	position: relative;
 	box-shadow: 0 2px 15px 0 rgb(0,0,0,0.4);
+	background: #ffffff;
 
 	.logo {
 		margin: 24px 0 59px;

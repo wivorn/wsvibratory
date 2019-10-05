@@ -13,3 +13,8 @@
 @import './imports/_header.css';
 @import './imports/_topbar.css';
 @import './imports/_navbar.css';
+@import './imports/_jumbotron.css';
+
+html {
+	background: var(--grey-1);
+}
