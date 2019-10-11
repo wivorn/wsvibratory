@@ -1,0 +1,30 @@
+.banner {
+	background: var(--primary);
+	padding: 40px;
+
+	.container {
+		display: flex;
+	}
+
+	&-block {
+		color: white;
+		flex: 1;
+		text-align: center;
+
+		h3 {
+			line-height: 1;
+			text-transform: uppercase;
+		}
+
+		strong {
+			font-size: 80px;
+			display: block;
+			margin-bottom: 16px;
+		}
+
+		& + .banner-block {
+			border-left: 2px solid rgba(255,255,255,0.3);
+		}
+	}
+
+}

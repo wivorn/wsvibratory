@@ -6,6 +6,7 @@
 
 	.info-block {
 		padding: 60px 18px 100px;
+		text-align: center;
 
 		h2 {
 			font-size: var(--font-size-l);
@@ -19,11 +20,12 @@
 				width: 80px;
 				height: 2px;
 				background: var(--highlight);
-				margin: 20px 0;
+				margin: 20px auto;
 			}
 		}
 
 		p {
+			text-align: left;
 			color: var(--grey-3);
 			font-size: var(--font-size);
 		}

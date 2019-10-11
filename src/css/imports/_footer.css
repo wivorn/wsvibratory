@@ -1,0 +1,10 @@
+footer {
+	background: var(--grey-4);
+
+	.copyright {
+		text-align: center;
+		padding: 26px 0;
+		color: white;
+		background: var(--grey-3);
+	}
+}
