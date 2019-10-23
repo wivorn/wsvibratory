@@ -1,0 +1,7 @@
+{{ define "main" }}
+
+{{ partial "jumbotron" (dict "imageUrl" .Params.service_image "title" .Params.service_heading "subtitle" .Params.service_subheading) }}
+
+{{ partial "jumbotron" (dict "imageUrl" .Params.maintenance_image "title" .Params.maintenance_heading "subtitle" .Params.maintenance_subheading) }}
+
+{{ end }}

@@ -1,16 +1,10 @@
 <nav class="navbar">
   <ul class="navbar-content">
-    <li class="navbar-item">
-      <a href="http://wsvibratory.com/about" target="_blank" rel="noopener noreferrer">ABOUT</a>
-    </li>
-    <li class="navbar-item">
-      <a href="http://" target="_blank" rel="noopener noreferrer">SERVICES</a>
-    </li>
-    <li class="navbar-item">
-      <a href="http://" target="_blank" rel="noopener noreferrer">PRODUCTS</a>
-    </li>
-    <li class="navbar-item">
-      <a href="http://" target="_blank" rel="noopener noreferrer">CONTACT</a>
-    </li>
+		{{ $currentPage := . }}
+		{{ range .Site.Menus.main }}
+		<li class="navbar-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}">
+			<a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+		</li>
+		{{ end }}
   </ul>
 </nav>

@@ -1,5 +1,8 @@
 ---
 title: "Contact"
+menu: main
+name: "Contact"
+weight: 4
 logo: "/img/logo.svg"
 contact_entries:
   - heading: Location

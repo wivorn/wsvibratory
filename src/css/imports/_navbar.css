@@ -3,6 +3,7 @@
 	border-radius: 6px;
 	background: #0A0A0A url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSIxMDAiPgo8cGF0aCBkPSJNMjggNjZMMCA1MEwwIDE2TDI4IDBMNTYgMTZMNTYgNTBMMjggNjZMMjggMTAwIiBmaWxsPSJub25lIiBzdHJva2U9IiM1NTUiIHN0cm9rZS13aWR0aD0iMiI+PC9wYXRoPgo8L3N2Zz4=");
   background-size: 8px auto;
+	overflow: hidden;
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.4);
 
 	.navbar-content {
@@ -23,7 +24,7 @@
 	.navbar-item {
 		display: flex;
 		align-items: center;
-		padding: 0 6px;
+		padding: 0;
 
 		& + .navbar-item {
 			&:before {
@@ -35,9 +36,24 @@
 			}
 		}
 
+		&.active {
+			a:after {
+				content: '';
+				display: block;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				height: 6px;
+				background: white;
+			}
+		}
+
 		a {
-			padding: 27px 22px;
+			position: relative;
+			padding: 24px 22px;
 			font-size: var(--font-size);
+			text-transform: uppercase;
 			text-decoration: none;
 			line-height: 1;
 		}
