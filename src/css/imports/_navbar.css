@@ -7,6 +7,17 @@
 
 	.navbar-content {
 		display: flex;
+
+		@media screen and (max-width: 524px) {
+			.navbar-item {
+				flex: 1 0 auto;
+				padding: 0;
+
+				a {
+					font-size: var(--font-size-s);
+				}
+			}
+		}
 	}
 
 	.navbar-item {
@@ -29,6 +40,28 @@
 			font-size: var(--font-size);
 			text-decoration: none;
 			line-height: 1;
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		margin-left: -20px;
+		margin-right: -20px;
+		border-radius: 0;
+
+		.navbar-content {
+			.navbar-item {
+				flex: 1;
+
+				&:before {
+					display: none;
+				}
+
+				a {
+					padding: 20px 10px;
+					width: 100%;
+					text-align: center;
+				}
+			}
 		}
 	}
 }

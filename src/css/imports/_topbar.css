@@ -43,6 +43,10 @@
           background-image: url('/img/fax.svg');
           background-size: 24px auto;
         }
+
+				@media screen and (max-width: 640px) {
+					display: none;
+				}
       }
 
       &.contact-time {
@@ -51,6 +55,10 @@
         &:before {
           background-image: url('/img/time.svg');
         }
+
+				@media screen and (max-width: 850px) {
+					display: none;
+				}
       }
 
       &.contact-email {
@@ -81,4 +89,8 @@
 			margin-top: -4px;
 		}
   }
+
+	@media screen and (max-width: 500px) {
+		display: none;
+	}
 }

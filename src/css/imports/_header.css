@@ -6,6 +6,7 @@
 	.logo {
 		margin: 24px 0 59px;
 		max-width: 400px;
+		width: 100%;
 	}
 
 	.container {
@@ -18,5 +19,11 @@
 		right: 20px;
 		bottom: 0;
 		transform: translate3d(0, 50%, 0);
+	}
+
+	@media screen and (max-width: 480px) {
+		.logo {
+			margin: 24px 0 40px;
+		}
 	}
 }

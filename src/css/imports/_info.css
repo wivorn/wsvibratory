@@ -30,4 +30,24 @@
 			font-size: var(--font-size);
 		}
 	}
+
+	@media screen and (max-width: 767px) {
+		.container {
+			flex-direction: column;
+			padding: 60px 20px;
+
+			.info-block {
+				text-align: left;
+				padding: 0;
+
+				h2:after {
+					margin: 20px 0;
+				}
+
+				& + .info-block {
+					margin-top: 60px;
+				}
+			}
+		}
+	}
 }
