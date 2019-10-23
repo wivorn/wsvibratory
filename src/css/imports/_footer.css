@@ -1,10 +1,60 @@
 footer {
-	background: var(--grey-4);
+  background: var(--grey-4);
 
-	.copyright {
-		text-align: center;
-		padding: 26px 0;
-		color: white;
-		background: var(--grey-3);
+  nav {
+		font-size: var(--font-size-xs);
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      padding: 40px 16px 54px;
+    }
+
+    .company-info {
+      display: flex;
+			justify-content: space-between;
+			width: 400px;
+
+			&-block {
+				display: flex;
+				flex-direction: column;
+			}
+
+      h4 a {
+        color: var(--highlight);
+      }
+
+      a {
+				color: var(--grey-2);
+        text-decoration: none;
+      }
+    }
+  }
+
+	.contact {
+		h4 {
+			color: var(--highlight);
+		}
+
+		&-details {
+			display: flex;
+			color: var(--grey-2);
+
+			> * {
+				max-width: 200px;
+			}
+
+			.contact-info {
+				margin-left: 20px;
+			}
+		}
 	}
+
+  .copyright {
+    text-align: center;
+    padding: 26px 0;
+    color: white;
+    background: var(--grey-3);
+		font-size: 12px;
+  }
 }
